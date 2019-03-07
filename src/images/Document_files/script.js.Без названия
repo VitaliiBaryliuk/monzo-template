@@ -1,0 +1,25 @@
+
+(function landing() {
+
+  function onScrollEvent(scrollPosition) {
+    const topMenu = document.querySelector('.header__top');
+    return (event) => {
+      if (scrollPosition === 0) {
+        scrollPosition = window.pageYOffset;
+      } else if (window.pageYOffset > scrollPosition) {
+        topMenu.classList.add('zerro-height');
+        scrollPosition = window.pageYOffset;
+      } else {
+        topMenu.classList.remove('zerro-height');
+        scrollPosition = window.pageYOffset;
+      }
+    };
+  }
+
+  function setFixedMenu() {
+    let scrollPosition = 0;    
+    document.addEventListener('scroll', onScrollEvent(scrollPosition));
+  }
+
+  setFixedMenu();
+}());

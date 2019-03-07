@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__top" data-hidemenu = 'true'>
+          <div class="header__logo">
+            <a class="header__logo-image" href="#"></a>
+          </div>
+          <div class="header__menu-button">
+            <label class="header__close-menu-label" for="menu"><p class="header__label-text">close menu</p>
+              <div class="header__togle">
+                <span class="header__span1 remove"></span>
+                <span class="header__span2 remove"></span>
+              </div>
+              <input id="menu" class="header__menu-checkbox" type="checkbox">
+            </label>
+            <label class="header__open-menu-label" for="menu"><p class="header__label-text">menu</p>
+              <div class="header__togle">
+                <span class="header__span remove"></span>
+                <span class="header__span remove"></span>
+                <span class="header__span remove"></span>
+              </div>
+              <input id="menu" class="header__menu-checkbox" type="checkbox">
+            </label>
+          </div>
+          <div class="header__menu">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">About</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Blog</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Community</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__sign-in">
+              <button class="header__sign-in--button">Sign In</button>
+            </div>
+          </div>
+          
+
+        </div>
+        <nav class="header__nav-mobile">
+          <ul class="header__nav-mobile-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Blog</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Community</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">FAQ</a>
+            </li>
+            <li class="header__sign-in-mobile">
+              <button class="header__sign-in-mobile--button">Sign In</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__bottom">
+          <div class="header__left">
+            <div class="header__left-message">
+              <h1 class="header__ahead">The bank of the future</h1>
+              <p class="header__message">
+                This isn’t banking as you know it. Monzo is a bank for everyone,
+                that works with you, for you.<br />
+                Join today for your own UK current account.
+              </p>
+            </div>
+            <div class="header__download">
+              <p class="header__download-ahead">
+                Download and signup now on iOS and Android
+              </p>
+              <div class="header__download-links">
+                <a class="header__app-store download" href="#"></a>
+                <a class="header__google-play download" href="#"></a>
+              </div>
+            </div>
+          </div>
+          <div class="header__right">
+            <img
+              class="header__right-image"
+              src="images/home-header-bottom.png"
+              alt="cards images"
+            />
+            <img
+            class="header__right-image-mobile"
+            src="images/cards.png"
+            alt="cards images"
+          />
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="clients">
+          <a href="#" class="clients__item"
+            ><img src="images/pr-guardian.svg" alt=""
+          /></a>
+          <a href="#" class="clients__item"
+            ><img src="images/pr-thetelegraph.svg" alt=""
+          /></a>
+          <a href="#" class="clients__item"
+            ><img src="images/pr-thetimes.svg" alt=""
+          /></a>
+          <a href="#" class="clients__item"
+            ><img src="images/pr-standard.svg" alt=""
+          /></a>
+        </section>
+        <section class="article-desc">
+          <div class="article-desc__left">
+            <img
+              class="article-desc__image"
+              src="images/home-apple-pay.png"
+              alt="use apple pay image"
+            />
+          </div>
+          <div class="article-desc__right">
+            <h1 class="article-desc__ahead">Use your Monzo card with Apple Pay</h1>
+            <p class="article-desc__text">
+              Apple Pay is an easy, secure and private way to pay. Add your
+              Monzo card to Apple Pay through your Wallet, or by going to the
+              Account tab in the Monzo app.
+            </p>
+            <br>
+            <a href="#" class="article-desc__link">
+              Read more about using Apple Pay &#8250;
+            </a>
+            <br>
+            <img
+              class="article-desc__logo"
+              src="images/monzo-apple-pay.svg"
+              alt=""
+            />
+          </div>
+        </section>
+        <section class="info">
+          <div class="info__left">
+            <h1 class="info__ahead">Manage your money</h1>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/target.svg"
+                alt=""
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">Set spending budgets</h3>
+                <p class="info__item-text">
+                  Set monthly budgets for spending on things like groceries and
+                  going out.
+                </p>
+              </div>
+            </div>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/summary.svg"
+                alt=""
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">See an easy summary</h3>
+                <p class="info__item-text">
+                  See an overview of your account any time, sorted by what you
+                  spend on, with notifications if you’re spending too fast.
+                </p>
+              </div>
+            </div>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/notification.svg"
+                alt=""
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">
+                  Get instant notifications
+                </h3>
+                <p class="info__item-text">
+                  Get a notification the moment you use your card, before the
+                  receipt finishes printing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="info__right">
+            <img
+              class="info__image"
+              src="images/manage-money.png"
+              alt="use apple pay image"
+            />
+          </div>
+        </section>
+        <section class="travel">
+          <div class="travel__top">
+            <h1 class="travel__ahead">Travel stress-free</h1>
+            <img
+              class="travel__image"
+              src="images/travel.png"
+              alt="use apple pay image"
+            />
+          </div>
+          <div class="travel__bottom">
+            <div class="travel__item">
+              <img class="travel__item-image" src="images/target.svg" alt="" />
+              <div class="travel__item-info">
+                <h3 class="travel__item-ahead">Use your card anywhere</h3>
+                <p class="travel__item-text">
+                  Monzo works all around the world, and you don’t need to tell
+                  us if you’re going away.
+                </p>
+              </div>
+            </div>
+            <div class="travel__item">
+              <img class="travel__item-image" src="images/atm.svg" alt="" />
+              <div class="travel__item-info">
+                <h3 class="travel__item-ahead">Take out cash</h3>
+                <p class="travel__item-text">
+                  Withdraw up to £200 every 30 days for free. (there’s a 3%
+                  charge after that).
+                </p>
+              </div>
+            </div>
+            <div class="travel__item">
+              <img class="travel__item-image" src="images/money.svg" alt="" />
+              <div class="travel__item-info">
+                <h3 class="travel__item-ahead">Spend for free</h3>
+                <p class="travel__item-text">
+                  We don’t add any fees or charges for spending with your card,
+                  and we don’t mark up the exchange rate.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="travel__link" href="#">
+              Read more about traveling with Monzo &#8250;
+          </a>
+        </section>
+        <section class="info">
+          <div class="info__left">
+            <h1 class="info__ahead">Send money easily</h1>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/friends.svg"
+                alt="social network friends logo image"
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">Pay people in seconds</h3>
+                <p class="info__item-text">
+                  Send bank transfers that arrive instantly, 
+                  and pay nearby friends over Bluetooth without needing to know their details.
+                </p>
+              </div>
+            </div>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/reocurring.svg"
+                alt="reocurring logo image"
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">Set up Direct Debits and standing orders</h3>
+                <p class="info__item-text">
+                    Manage recurring payments from your app.
+                </p>
+              </div>
+            </div>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/currency.svg"
+                alt=""
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">
+                    Send money abroad
+                </h3>
+                <p class="info__item-text">
+                  Send money internationally from your Monzo app for up to 8x 
+                  cheaper than with high street banks, powered by TransferWise.                </p>
+              </div>
+            </div>
+          </div>
+          <div class="info__right">
+            <img
+              class="info__image"
+              src="images/send-money.png"
+              alt="use apple pay image"
+            />
+          </div>
+        </section>
+        <section class="info mobile-column-reverse">
+          <div class="info__left">
+            <img
+              class="info__image"
+              src="images/security.png"
+              alt="use apple pay image"
+            />
+          </div>
+          <div class="info__right flex-center">
+            <h1 class="info__ahead">Keep your money safe</h1>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/freeze.svg"
+                alt="reocurring logo image"
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">Stay in control</h3>
+                <p class="info__item-text">
+                    If you lose your card, freeze it in the app and get a new one the next day. 
+                    (Or defrost it if you find it again.)
+                </p>
+              </div>
+            </div>
+            <div class="info__item">
+              <img
+                class="info__item-image"
+                src="images/shield.svg"
+                alt=""
+              />
+              <div class="info__item-info">
+                <h3 class="info__item-ahead">
+                  Rest easy
+                </h3>
+                <p class="info__item-text">
+                    We’re part of the FSCS, so your money is protected up to £85,000.              </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="account-description">
+          <div class="account-description__top">
+            <h2 class="account-description__ahead">The Monzo Current Account</h2>
+            <p class="account-description__text"> 
+              A full UK bank account that you can open from your phone in minutes.
+            </p>
+          </div>
+          <div class="account-description__middle">
+            <div class="account-description__item">
+              <div class="account-description__info">
+                <h2 class="account-description__item-ahead">
+                  <a class="account-description__item-link" href="#">
+                    Easy account switching ›
+                  </a>
+                </h2>
+                <p class="account-description__item-text">
+                    The Current Account Switch Service makes it simple, 
+                    reliable and hassle-free to switch from one UK bank to another.
+                </p>
+              </div>
+              <div class="account-description__logo">
+                <img class="account-description__image" src="images/current-account-switch.png" alt="account switch logo">
+              </div>
+            </div>
+            <div class="account-description__item">
+              <div class="account-description__info">
+                <h2 class="account-description__item-ahead">
+                  Straightforward payments
+                </h2>
+                <p class="account-description__item-text">
+                  Set up Direct Debits and standing orders in-app, 
+                  and send money to any other UK bank account instantly.
+                </p>
+              </div>
+              <div class="account-description__logo">
+                <img class="account-description__image" src="images/directdebits.png" alt="directdebits logo">
+                <img class="account-description__image" src="images/fasterpayments.png" alt="fasterpayments logo">
+              </div>
+            </div>
+            <div class="account-description__item">
+              <div class="account-description__info">
+                <h2 class="account-description__item-ahead">
+                  <a class="account-description__item-link" href="#">
+                    A flexible overdraft, if you want it ›
+                  </a>
+                </h2>
+                <p class="account-description__item-text">
+                  If you’re eligible, you can switch on an overdraft in the app any time. 
+                  Don’t want an overdraft? No problem, you don’t have to have one.                </p>
+              </div>
+              <div class="account-description__logo">
+                <img class="account-description__image" src="images/overdraft-icon.png" alt="account switch logo">
+              </div>
+            </div>
+            <div class="account-description__item">
+              <div class="account-description__info">
+                <h2 class="account-description__item-ahead">
+                  Protection for your money
+                </h2>
+                <p class="account-description__item-text">
+                    Every Monzo account is protected by the Financial Services Compensation Scheme (FSCS), 
+                    so your money is safe up to £85,000 no matter what happens.              
+                </p>
+              </div>
+              <div class="account-description__logo">
+                <img class="account-description__image" src="images/fscs-logo.png" alt="fscs logo">
+              </div>
+            </div>
+          </div>
+          <div class="account-description__bottom">
+            <p class="account-description__bottom-ahead">
+              Join our 1 333 756 customers today
+            </p>
+            <div class="header__download-links">
+              <a class="header__app-store download" href="#"></a>
+              <a class="header__google-play download" href="#"></a>
+            </div>            
+          </div>
+        </section>
+        <section class="photopost">
+          <div class="photopost__info">
+            <h2 class="photopost__ahead">
+              Human help, whenever you need it
+            </h2>
+            <p class="photopost__text">
+              We might be a bank in an app, but we’re always here to help. 
+              Every customer gets access to 24/7 customer support through the app — just send us a chat message and we’ll get back to you ASAP.
+              Not into chat? Email or call us at any time.
+            </p>
+          </div>
+        </section> 
+      </section>
+      <section class="article-desc mobile-column-direction">
+        <div class="article-desc__right">
+          <h1 class="article-desc__ahead">We're building Monzo together</h1>
+          <p class="article-desc__text">
+            We're doing things differently. For too long, banking has been harder than it needs to be.
+            <br>
+            We want to change that and build a bank with everyone, 
+            for everyone. Join our amazing community of users and suggest features, give feedback and help us test the app, 
+            so together we can build something we all love.
+          </p>
+          <a href="#" class="article-desc__link">
+            Join our community today ›
+          </a>
+        </div>
+        <div class="article-desc__left">
+          <img
+            class="article-desc__image"
+            src="images/bank-love.png"
+            alt="bank love image"
+          />
+        </div>
+      </section>
+      <section class="install-app">
+        <h2 class="install-app__ahead">
+          Help us build the kind of bank you want to use
+        </h2>
+        <p class="install-app__text">
+            Download the Monzo app on iOS or 
+            Android and become one of the hundreds of thousands of people using a better bank.
+        </p>
+        <div class="header__download-links">
+          <a class="header__app-store download" href="#"></a>
+          <a class="header__google-play download" href="#"></a>
+        </div>
+      </section>       
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="footer__top">
+            <ul class="footer__logo-containter">
+              <li>
+                <img class="footer__logo" src="images/favicon.png" alt="">
+              </li>
+            </ul>
+            <div class="footer__list">
+              <ul class="footer__list-column">
+                <li class="footer__list-item"><a class="footer__link" href="#">About us</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Blog</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Press</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Carreers</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Lost your phone and card?</a></li>
+              </ul>
+              <ul class="footer__list-column">
+                <li class="footer__list-item"><a class="footer__link" href="#">Community</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Making Monzo</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Transparency</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">How money works</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Our tone of voice</a></li>
+              </ul>
+              <ul class="footer__list-column">
+                <li class="footer__list-item"><a class="footer__link" href="#">FAQ</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">FSCS information</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Privacy Policy</a></li>
+                <li class="footer__list-item"><a class="footer__link" href="#">Cookie Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer__social">
+              <div class="header__download-links">
+                <a class="header__app-store download" href="#"></a>
+                <a class="header__google-play download" href="#"></a>
+              </div>
+              <div class="footer__social-links">
+                <a class="footer__social-link" href="#">
+                  <img src="images/twitter.svg" alt="">
+                </a>
+                <a class="footer__social-link" href="#">
+                  <img src="images/facebook.svg" alt="">
+                </a>
+                <a class="footer__social-link" href="#">
+                  <img src="images/linkedin.svg" alt="">
+                </a>
+                <a class="footer__social-link" href="#">
+                  <img src="images/youtube.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__top-message">
+                Existing customers <a class="footer__email" href="#">help@monzo.com</a>
+            </p>
+            <p class="footer__bottom-message">
+                Monzo Bank Limited is a company registered in England and Wales (No. 09446231). 
+                Monzo Bank Ltd is authorised by the Prudential Regulation Authority (PRA) 
+                and regulated by the Financial Conduct Authority and the PRA. 
+                Our Financial Services Register number is 730427.
+            </p>
+          </div>
+        </div>
+      </foooter> 
+    </div>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
